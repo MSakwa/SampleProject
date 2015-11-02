@@ -1,0 +1,15 @@
+﻿@model SampleProject.Controllers.InputData
+
+
+@{
+    ViewBag.Title = "Edycja";
+}
+<div>
+    <form method="post">
+
+        @Html.TextBoxFor(x => x.Name)
+        @Html.EditorFor(x => x.Age)
+
+        <input type="submit" value="Submit" />
+    </form>
+</div>
