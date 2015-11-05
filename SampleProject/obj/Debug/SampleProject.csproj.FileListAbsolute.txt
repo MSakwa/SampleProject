@@ -31,3 +31,35 @@ c:\Users\MichalS\Documents\Visual Studio 2015\Projects\SampleProject\SampleProje
 c:\Users\MichalS\Documents\Visual Studio 2015\Projects\SampleProject\SampleProject\obj\Debug\SampleProject.csprojResolveAssemblyReference.cache
 c:\Users\MichalS\Documents\Visual Studio 2015\Projects\SampleProject\SampleProject\obj\Debug\SampleProject.dll
 c:\Users\MichalS\Documents\Visual Studio 2015\Projects\SampleProject\SampleProject\obj\Debug\SampleProject.pdb
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\csc.exe
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\vbc.exe
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe
+C:\Projects\GitHub\SampleProject\SampleProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\GitHub\SampleProject\SampleProject\bin\SampleProject.dll.config
+C:\Projects\GitHub\SampleProject\SampleProject\bin\SampleProject.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\SampleProject.pdb
+C:\Projects\GitHub\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Helpers.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Mvc.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Razor.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Webpages.Deployment.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Webpages.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Webpages.Razor.dll
+C:\Projects\GitHub\SampleProject\SampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Razor.xml
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Webpages.xml
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Webpages.Deployment.xml
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Webpages.Razor.xml
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Helpers.xml
+C:\Projects\GitHub\SampleProject\SampleProject\bin\System.Web.Mvc.xml
+C:\Projects\GitHub\SampleProject\SampleProject\obj\Debug\SampleProject.csprojResolveAssemblyReference.cache
+C:\Projects\GitHub\SampleProject\SampleProject\obj\Debug\SampleProject.dll
+C:\Projects\GitHub\SampleProject\SampleProject\obj\Debug\SampleProject.pdb

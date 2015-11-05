@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SampleProject.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -22,17 +23,7 @@ namespace SampleProject.Controllers
         [HttpPost]
         public ActionResult Edit(InputData vrpInput)
         {
-            vrpInput.Name += " po edycji";
-            vrpInput.Age++;
-
             return RedirectToAction("Edit", "Site", new { id = vrpInput.Name, age = vrpInput.Age });
         }
-    }
-
-    public class InputData
-    {
-        public string Name { get; set; }
-
-        public int Age { get; set; }
     }
 }

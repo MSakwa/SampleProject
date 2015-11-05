@@ -1,15 +1,33 @@
-﻿@model SampleProject.Controllers.InputData
+﻿@model SampleProject.Models.InputData
 
 
 @{
     ViewBag.Title = "Edycja";
 }
 <div>
+    <h2>Edit</h2>
+    <h2>Dane wejściowe</h2>
+    <div>
+        <label>Imię: <strong>@Model.Name</strong></label>
+    </div>
+    <div>
+        <label>Wiek: <strong>@Model.Age</strong></label>
+    </div>
     <form method="post">
-
-        @Html.TextBoxFor(x => x.Name)
-        @Html.EditorFor(x => x.Age)
-
-        <input type="submit" value="Submit" />
+        <h2>Formularz</h2>
+        <div>
+            @Html.LabelFor(x => x.Name, "Imię: ")
+            @Html.TextBoxFor(x => x.Name)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.Age, "Wiek: ")
+            @Html.EditorFor(x => x.Age)
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+        <div>
+            <a href="@Url.Action("Index", "Site")">Idz do strony głównej</a>
+        </div>
     </form>
 </div>
