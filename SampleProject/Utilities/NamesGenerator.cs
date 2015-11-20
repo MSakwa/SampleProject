@@ -16,7 +16,7 @@ namespace SampleProject.Utilities
                 Person vrlPerson = new Person();
                 vrlPerson.FirstName = GenRandomFirstName();
                 vrlPerson.LastName = GenRandomLastName();
-                vrlPerson.Age = rnd.Next(1, 1400);
+                vrlPerson.Age = rnd.Next(1, 100);
 
                 yield return vrlPerson;
             }
