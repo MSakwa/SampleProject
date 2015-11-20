@@ -13,7 +13,12 @@ namespace SampleProject.Utilities
         {
             for (int i = 0; i < 100; i++)
             {
-                yield return new Person(GenRandomFirstName(), GenRandomLastName(), rnd.Next(1, 100));
+                Person vrlPerson = new Person();
+                vrlPerson.FirstName = GenRandomFirstName();
+                vrlPerson.LastName = GenRandomLastName();
+                vrlPerson.Age = rnd.Next(1, 100);
+
+                yield return vrlPerson;
             }
         }
 

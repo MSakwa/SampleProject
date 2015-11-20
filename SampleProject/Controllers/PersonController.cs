@@ -12,7 +12,11 @@ namespace SampleProject.Controllers
         // GET: Person
         public ActionResult Index()
         {
-            return View(new NamesGenerator().GetRandomPersons());
+            using (DAL.ApplicationContext vrlContext = new DAL.ApplicationContext())
+            {
+                var vrlPersons = vrlContext.Persons.ToList();
+                return View(vrlPersons);
+            }
         }
     }
 }
