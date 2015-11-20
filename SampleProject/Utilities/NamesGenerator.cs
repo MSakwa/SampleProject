@@ -11,12 +11,12 @@ namespace SampleProject.Utilities
 
         public IEnumerable<Person> GetRandomPersons()
         {
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 3; i++)
             {
                 Person vrlPerson = new Person();
                 vrlPerson.FirstName = GenRandomFirstName();
                 vrlPerson.LastName = GenRandomLastName();
-                vrlPerson.Age = rnd.Next(1, 100);
+                vrlPerson.Age = rnd.Next(1, 1400);
 
                 yield return vrlPerson;
             }
