@@ -1,0 +1,40 @@
+﻿@model SampleProject.Models.ViewModels.PersonInput
+
+
+@{
+    ViewBag.Title = "Edycja";
+}
+<div>
+    <h2>Edit</h2>
+    <h2>Dane wejściowe</h2>
+    <div>
+        <label>Imię: <strong>@Model.FirstName</strong></label>
+    </div>
+    <div>
+        <label>Nazwisko: <strong>@Model.LastName</strong></label>
+    </div>
+    <div>
+        <label>Wiek: <strong>@Model.Age</strong></label>
+    </div>
+    <form method="post">
+        <h2>Formularz</h2>
+        <div>
+            @Html.LabelFor(x => x.FirstName, "Imię: ")
+            @Html.TextBoxFor(x => x.FirstName)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.LastName, "Nazwisko: ")
+            @Html.TextBoxFor(x => x.LastName)
+        </div>
+        <div>
+            @Html.LabelFor(x => x.Age, "Wiek: ")
+            @Html.EditorFor(x => x.Age)
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+        <div>
+            <a href="@Url.Action("Index", "Site")">Idz do strony głównej</a>
+        </div>
+    </form>
+</div>

@@ -21,6 +21,7 @@
             <td>@Model.ElementAt(i).FirstName</td>
             <td>@Model.ElementAt(i).LastName</td>
             <td>@Model.ElementAt(i).Age</td>
+            <td><a href="@Url.Action("Edit", "Person", new { id = Model.ElementAt(i).Id })">Edytuj</a></td>
         </tr>
     }
 </table>
