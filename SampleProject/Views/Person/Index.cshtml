@@ -7,12 +7,13 @@
 
 <h2>Osoby</h2>
 
-<table>
+<table class="table table-bordered">
     <tr>
         <th>Lp</th>
         <th>Imię</th>
         <th>Nazwisko</th>
         <th>Wiek</th>
+        <th></th>
     </tr>
     @for (int i = 0; i < Model.Count(); ++i)
     {
@@ -21,7 +22,7 @@
             <td>@Model.ElementAt(i).FirstName</td>
             <td>@Model.ElementAt(i).LastName</td>
             <td>@Model.ElementAt(i).Age</td>
-            <td><a href="@Url.Action("Edit", "Person", new { id = Model.ElementAt(i).Id })">Edytuj</a></td>
+            <td><a class="btn btn-warning" href="@Url.Action("Edit", "Person", new { id = Model.ElementAt(i).Id })"><i class="glyphicon glyphicon-pencil"></i></a></td>
         </tr>
     }
 </table>
