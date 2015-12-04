@@ -1,0 +1,14 @@
+﻿body .title {
+    color: red;
+    background-color: #eff8b3;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 5px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body div:first-child {
+    width: 50%;
+}
+

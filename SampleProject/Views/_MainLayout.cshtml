@@ -2,14 +2,18 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width" />
     @Styles.Render("~/MojeCss")
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <h1>Moja strona</h1>
     <div>
-        @RenderBody()
+        <h1 class="title">Moja strona</h1>
+        <h2 class="title">To ma być czarne</h2>
     </div>
+<div>
+    @RenderBody()
+</div>
 </body>
 </html>

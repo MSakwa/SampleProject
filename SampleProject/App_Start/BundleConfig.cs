@@ -12,7 +12,8 @@ namespace SampleProject.App_Start
         {
             vrpBundleCollection.Add(new StyleBundle("~/MojeCss")
                 .Include("~/Content/bootstrap.css")
-                .Include("~/Content/bootstrap-theme.css"));
+                .Include("~/Content/bootstrap-theme.css")
+                .Include("~/Content/site.css"));
         }
     }
 }
